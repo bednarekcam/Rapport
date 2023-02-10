@@ -1,0 +1,77 @@
+---
+title: "Clouds et sécurité informatique"
+author: "Camille Bednarek"
+date: "2023-02-08"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<div style="text-align: justify">
+
+  L’arrivée de l’Internet a eu un impact considérable sur le monde informatique. Ce qui a commencé comme un projet pour l’armée américaine par des étudiants s’est rapidement transformé en une innovation qui continue à évoluer pour être toujours plus performante. Aujourd’hui, les utilisateurs peuvent accéder à Internet à partir de différents appareils, tels que les téléphones portables, les ordinateurs et les clouds, qui offrent des applications et des services de stockage en ligne.
+
+<h1 style="color:green;">Qu'est ce qu'un cloud ?</h1>
+
+
+Un cloud est un service de stockage de données en ligne qui permet aux utilisateurs de stocker, accéder et partager leurs données à partir d'internet. Au lieu de stocker des données sur le disque dur local d'un ordinateur, les données sont stockées sur des serveurs distants, gérés par un fournisseur de services de cloud. Les utilisateurs peuvent accéder à leurs données à partir de n'importe où et de n'importe quel appareil connecté à internet. Les clouds peuvent également offrir des services supplémentaires tels que le traitement du traitement des données, l'analyse, la gestion des applications, etc.
+
+<h1 style="color:green;">Pourquoi utiliser un cloud ?</h1>
+
+Les clouds sont devenus un élément clé de l'infrastructure informatique pour de nombreuses entreprises et particuliers. Les avantages de l'utilisation des clouds incluent une flexibilité accrue, une accessibilité à distance, une collaboration en temps réel, une réduction des coûts informatiques, une scalabilité plus facile et une maintenance simplifiée. Les services de cloud computing peuvent être utilisés pour stocker des données, exécuter des applications et des programmes, et fournir un accès à des ressources informatiques telles que le calcul et le stockage. Il existe différents types de clouds, tels que les clouds publics, les clouds privés, les clouds hybrides et les clouds communautaires, qui répondent à différents besoins en matière de confidentialité, de performance, de coûts, de gestion et de sécurité. Cependant, l'utilisation des clouds comporte également des risques tels que la perte de données, la violation de la vie privée, les cyberattaques et les interruptions de service. Il est donc important de choisir un fournisseur de cloud fiable et de mettre en place des mesures de sécurité appropriées pour protéger les données et les informations sensibles.
+
+<h1 style="color:green;">Quels risques liés au cloud ?</h1>
+
+Les risques liés aux clouds sont nombreux et peuvent porter sur la sécurité des données, la confidentialité, la disponibilité et la conformité réglementaire. Tout d'abord, les clouds étant accessibles en ligne, les données y étant stockées peuvent être vulnérables aux cyberattaques, telles que les pirates informatiques, les hacks et les ransomwares. De plus, les clouds sont souvent gérés par des tierces parties, ce qui peut entraîner des problèmes de confidentialité si les données sont partagées avec des parties non autorisées. Les clouds peuvent également être affectés par des perturbations telles que les pannes de serveur, ce qui peut rendre les données inaccessible à l'utilisateur. Enfin, l'utilisation de clouds peut entraîner des problèmes de conformité réglementaire, telles que les réglementations en matière de protection des données personnelles. Il est donc important pour les utilisateurs de se familiariser avec les risques liés aux clouds et de prendre les mesures nécessaires pour minimiser ces risques.
+
+[@el2012etat]
+
+<h1 style="color:green;">Quelles mesures préventives ?</h1>
+
+Pour protéger son cloud, il est recommandé de suivre les mesures suivantes:
+1.	Former les employés aux risques de sécurité et à la protection des données.
+2.	Identifier les données et les traitements qui seront transmis via le cloud.
+3.	Définir les exigences de sécurité pour chaque utilisateur (personnel ou professionnel).
+4.	Choisir un prestataire de confiance qui offre des garanties de sécurité.
+5.	Réaliser une analyse des risques de cyberattaques régulièrement.
+6.	Mettre en place une stratégie de sauvegarde et de restauration des données en cas d'incident.
+7.	Établir des contrats formels avec les éditeurs pour définir les obligations en matière de protection des données.
+8.	Mettre à jour régulièrement les systèmes de sécurité pour garantir leur efficacité.
+
+<h1 style="color:green;">Existe-t-il des protections?</h1>
+
+Afin de palier à ces risques, il existe le Règlement général sur la protection des données (RGPD). Il s’agit d’une réglementation de l'Union européenne entrée en vigueur en mai 2018. Il a pour objectif de renforcer les droits des citoyens en matière de protection de leurs données personnelles et de responsabiliser les entreprises qui collectent, traitent et utilisent ces données.
+Le RGPD s'applique à toutes les entreprises et organisations situées dans l'Union européenne, ainsi qu'à celles qui collectent et traitent des données de citoyens de l'UE, même si elles ne sont pas situées sur le territoire de l'UE.
+Il impose de nouvelles obligations en matière de protection des données personnelles, telles que la notification obligatoire des violations de données, l'obligation d'obtenir le consentement explicite des personnes concernées pour le traitement de leurs données, la mise en place de mesures de sécurité appropriées pour protéger les données et la nomination d'un délégué à la protection des données pour les entreprises de certaine taille.
+Le RGPD prévoit également des sanctions importantes en cas de non-conformité, allant jusqu'à 4% du chiffre d'affaires annuel mondial de l'entreprise ou 20 millions d'euros, ce qui incitera les entreprises à prendre la protection de la vie privée de leurs clients très au sérieux.
+En somme, le RGPD vise à renforcer la confiance des citoyens dans le traitement de leurs données personnelles par les entreprises et à instaurer un cadre juridique plus robuste pour protéger la vie privée en ligne.
+
+[@de2018titre]
+
+
+   Ainsi, la sécurité des données dans le cloud est cruciale en raison de la nature de ces dernières, souvent confidentielles et sensibles. Si elles sont compromises, cela peut avoir de graves conséquences pour les individus et les entreprises. Il est donc important de mettre en place des mesures pour protéger les données stockées dans le cloud, telles que l'utilisation de mots de passe forts, la mise en place de contrôles d'accès stricts et la mise en œuvre de politiques de sauvegarde régulières. Le RGPD offre également une protection supplémentaire en matière de protection des données personnelles, en exigeant que les entreprises traitant ces données les protègent adéquatement. Sécuriser son cloud et ses données personnelles est une responsabilité partagée entre les entreprises et les individus. Il est important de rester informé et conscient des risques pour prendre les mesures nécessaires pour protéger les informations sensibles.
+    
+</div>
+
+
+# Bibliographie
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Bibliographie</title>
+</head>
+<body>
+<div class="csl-bib-body" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
+  <div class="csl-entry">«&nbsp;Cloud : quelles sont les principales menaces et comment s’en protéger&nbsp;». Consulté le 10 février 2023. <a href="https://www.lebigdata.fr/cloud-menaces">https://www.lebigdata.fr/cloud-menaces</a>.</div>
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Cloud%20%3A%20quelles%20sont%20les%20principales%20menaces%20et%20comment%20s'en%20prot%C3%A9ger&amp;rft.identifier=https%3A%2F%2Fwww.lebigdata.fr%2Fcloud-menaces"></span>
+  <div class="csl-entry">«&nbsp;Le RGPD pour les nuls | Définition, application et obligations&nbsp;». Consulté le 10 février 2023. <a href="https://donnees-rgpd.fr/definitions/rgpd-pour-les-nuls/">https://donnees-rgpd.fr/definitions/rgpd-pour-les-nuls/</a>.</div>
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Le%20RGPD%20pour%20les%20nuls%20%7C%20D%C3%A9finition%2C%20application%20et%20obligations&amp;rft.identifier=https%3A%2F%2Fdonnees-rgpd.fr%2Fdefinitions%2Frgpd-pour-les-nuls%2F"></span>
+  <div class="csl-entry">Koban. «&nbsp;[RGPD] Où sont stockées vos données ? Le Cloud pour les nuls&nbsp;», 11 décembre 2017. <a href="https://www.koban.cloud/rgpd-stockees-vos-donnees-cloud-nuls/">https://www.koban.cloud/rgpd-stockees-vos-donnees-cloud-nuls/</a>.</div>
+  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=%5BRGPD%5D%20O%C3%B9%20sont%20stock%C3%A9es%20vos%20donn%C3%A9es%20%3F%20Le%20Cloud%20pour%20les%20nuls&amp;rft.description=Si%20vous%20vous%20posez%20effectivement%20la%20question%2C%20cet%20article%20vous%20apportera%20(on%20l%E2%80%99esp%C3%A8re%20!)%20des%20r%C3%A9ponses%20concr%C3%A8tes%20en%20vulgarisant%20un%20peu%20le%20discours.&amp;rft.identifier=https%3A%2F%2Fwww.koban.cloud%2Frgpd-stockees-vos-donnees-cloud-nuls%2F&amp;rft.date=2017-12-11&amp;rft.language=fr-FR"></span>
+</div></body>
+</html>
